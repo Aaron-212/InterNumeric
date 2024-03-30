@@ -1,0 +1,135 @@
+{
+color = 8;
+glyphname = colon;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,912);
+ref = period;
+}
+);
+width = 400;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,784);
+ref = period;
+}
+);
+width = 450;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,627);
+ref = period;
+}
+);
+width = 544;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,912);
+ref = period;
+}
+);
+width = 400;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,784);
+ref = period;
+}
+);
+width = 450;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,627);
+ref = period;
+}
+);
+width = 544;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = period;
+},
+{
+alignment = -1;
+pos = (0,912);
+ref = period;
+}
+);
+width = 400;
+},
+{
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,784);
+ref = period;
+}
+);
+width = 450;
+},
+{
+layerId = m009;
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+pos = (0,627);
+ref = period;
+}
+);
+width = 544;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 58;
+}

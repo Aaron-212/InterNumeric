@@ -1,0 +1,42 @@
+{
+glyphname = space;
+layers = (
+{
+layerId = m01;
+width = 576;
+},
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+width = 576;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+},
+{
+layerId = m006;
+width = 576;
+},
+{
+layerId = m007;
+width = 600;
+},
+{
+layerId = m008;
+width = 576;
+},
+{
+layerId = m009;
+width = 576;
+}
+);
+unicode = 32;
+}

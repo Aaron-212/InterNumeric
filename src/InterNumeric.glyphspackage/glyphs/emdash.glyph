@@ -1,0 +1,115 @@
+{
+color = 4;
+glyphname = emdash;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m01;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m005;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m004;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m006;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m007;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m008;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+},
+{
+layerId = m009;
+shapes = (
+{
+piece = {
+Width = 2048;
+};
+ref = _part.strline;
+}
+);
+width = 2048;
+}
+);
+unicode = 8212;
+}

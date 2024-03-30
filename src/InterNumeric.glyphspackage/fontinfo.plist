@@ -1,0 +1,946 @@
+{
+.appVersion = "3135";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Roundness;
+tag = RDNS;
+}
+);
+customParameters = (
+{
+name = "Variable Font Origin";
+value = m008;
+},
+{
+name = "Axis Mappings";
+value = {
+RDNS = {
+-1 = -1;
+1 = 1;
+};
+wght = {
+100 = 100;
+400 = 400;
+500 = 490;
+600 = 580;
+700 = 670;
+800 = 780;
+900 = 900;
+};
+};
+}
+);
+date = "2024-03-22 12:25:46 +0000";
+familyName = "Inter Numeric";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature case;
+feature zero;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub colon by colon.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+";
+tag = zero;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+-1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Light;
+id = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 16;
+pos = 1490;
+},
+{
+over = 16;
+pos = 1056;
+},
+{
+over = -16;
+},
+{
+pos = -494;
+}
+);
+name = Light;
+stemValues = (
+46,
+46
+);
+userData = {
+GSCornerRadius = 15;
+};
+},
+{
+axesValues = (
+100,
+0
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Light;
+id = m007;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 16;
+pos = 1490;
+},
+{
+over = 16;
+pos = 1056;
+},
+{
+over = -16;
+},
+{
+pos = -494;
+}
+);
+name = "Light Softened";
+stemValues = (
+46,
+46
+);
+userData = {
+GSCornerRadius = 15;
+};
+},
+{
+axesValues = (
+100,
+1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Light;
+id = m005;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 16;
+pos = 1490;
+},
+{
+over = 16;
+pos = 1056;
+},
+{
+over = -16;
+},
+{
+pos = -494;
+}
+);
+name = "Light Rounded";
+stemValues = (
+46,
+46
+);
+userData = {
+GSCornerRadius = 13;
+};
+},
+{
+axesValues = (
+400,
+-1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+id = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = Regular;
+stemValues = (
+160,
+180
+);
+},
+{
+axesValues = (
+400,
+0
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+id = m008;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = Softened;
+stemValues = (
+160,
+180
+);
+userData = {
+GSCornerRadius = 32;
+};
+},
+{
+axesValues = (
+400,
+1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+id = m004;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = Rounded;
+stemValues = (
+160,
+180
+);
+userData = {
+GSCornerRadius = 32;
+};
+},
+{
+axesValues = (
+900,
+-1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Bold;
+id = m01;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = Black;
+stemValues = (
+326,
+404
+);
+},
+{
+axesValues = (
+900,
+0
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Bold;
+id = m009;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = "Black Softened";
+stemValues = (
+326,
+404
+);
+userData = {
+GSCornerRadius = 72;
+};
+},
+{
+axesValues = (
+900,
+1
+);
+guides = (
+{
+locked = 1;
+name = "Cap Center";
+pos = (0,745);
+}
+);
+iconName = Bold;
+id = m006;
+metricValues = (
+{
+pos = 1940;
+},
+{
+over = 24;
+pos = 1490;
+},
+{
+over = 24;
+pos = 1056;
+},
+{
+over = -24;
+},
+{
+pos = -494;
+}
+);
+name = "Black Rounded";
+stemValues = (
+326,
+404
+);
+userData = {
+GSCornerRadius = 72;
+};
+}
+);
+instances = (
+{
+axesValues = (
+400,
+0
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Style Name as STAT entry";
+value = RDNS;
+}
+);
+instanceInterpolations = {
+m008 = 1;
+};
+name = Regular;
+type = variable;
+},
+{
+axesValues = (
+100,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.66667;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.33333;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.33333;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.66667;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Style Name as STAT entry";
+value = RDNS;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = RDNS;
+}
+);
+instanceInterpolations = {
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+500,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.8;
+m01 = 0.2;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.6;
+m01 = 0.4;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.4;
+m01 = 0.6;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.2;
+m01 = 0.8;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+-1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+100,
+0
+);
+instanceInterpolations = {
+m007 = 1;
+};
+name = "Thin Softened";
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+0
+);
+instanceInterpolations = {
+m007 = 0.66667;
+m008 = 0.33333;
+};
+name = "ExtraLight Softened";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+0
+);
+instanceInterpolations = {
+m007 = 0.33333;
+m008 = 0.66667;
+};
+name = "Light Softened";
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+0
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = RDNS;
+}
+);
+instanceInterpolations = {
+m008 = 1;
+};
+name = Softened;
+},
+{
+axesValues = (
+500,
+0
+);
+instanceInterpolations = {
+m008 = 0.8;
+m009 = 0.2;
+};
+name = "Medium Softened";
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+0
+);
+instanceInterpolations = {
+m008 = 0.6;
+m009 = 0.4;
+};
+name = "SemiBold Softened";
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+0
+);
+instanceInterpolations = {
+m008 = 0.4;
+m009 = 0.6;
+};
+isBold = 1;
+name = "Bold Softened";
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+0
+);
+instanceInterpolations = {
+m008 = 0.2;
+m009 = 0.8;
+};
+name = "ExtraBold Softened";
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+0
+);
+instanceInterpolations = {
+m009 = 1;
+};
+name = "Black Softened";
+weightClass = 900;
+},
+{
+axesValues = (
+100,
+1
+);
+instanceInterpolations = {
+m005 = 1;
+};
+name = "Thin Rounded";
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+1
+);
+instanceInterpolations = {
+m004 = 0.33333;
+m005 = 0.66667;
+};
+name = "ExtraLight Rounded";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+1
+);
+instanceInterpolations = {
+m004 = 0.66667;
+m005 = 0.33333;
+};
+name = "Light Rounded";
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+1
+);
+customParameters = (
+{
+name = "Style Name as STAT entry";
+value = RDNS;
+}
+);
+instanceInterpolations = {
+m004 = 1;
+};
+name = Rounded;
+},
+{
+axesValues = (
+500,
+1
+);
+instanceInterpolations = {
+m004 = 0.8;
+m006 = 0.2;
+};
+name = "Medium Rounded";
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+1
+);
+instanceInterpolations = {
+m004 = 0.6;
+m006 = 0.4;
+};
+name = "SemiBold Rounded";
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+1
+);
+instanceInterpolations = {
+m004 = 0.4;
+m006 = 0.6;
+};
+isBold = 1;
+name = "Bold Rounded";
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+1
+);
+instanceInterpolations = {
+m004 = 0.2;
+m006 = 0.8;
+};
+name = "ExtraBold Rounded";
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+1
+);
+instanceInterpolations = {
+m006 = 1;
+};
+name = "Black Rounded";
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = sampleTexts;
+values = (
+{
+language = dflt;
+value = "09:41";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = Aaron212;
+}
+);
+},
+{
+key = designerURL;
+value = "https://aaron212.top/";
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 Aaron212. Reserved font name not applicable.";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org/";
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "A versatile numeric font based on Inter.";
+}
+);
+}
+);
+stems = (
+{
+horizontal = 1;
+name = H;
+},
+{
+name = V;
+}
+);
+unitsPerEm = 2048;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,7 @@
+.DS_Store
+fonts
+venv
+*.stamp
+update.md
+fonts-temp
+src/NovaGothic（自动存储）.glyphs

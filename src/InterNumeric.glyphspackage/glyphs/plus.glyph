@@ -1,0 +1,215 @@
+{
+glyphname = plus;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 844;
+};
+pos = (-436,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 844;
+};
+pos = (1170,-442);
+ref = _part.strline;
+}
+);
+width = 1176;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 930;
+};
+pos = (-381,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 930;
+};
+pos = (1225,-442);
+ref = _part.strline;
+}
+);
+width = 1286;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 1076;
+};
+pos = (-314,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 1076;
+};
+pos = (1315,-419);
+ref = _part.strline;
+}
+);
+width = 1420;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 844;
+};
+pos = (-436,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 844;
+};
+pos = (1170,-442);
+ref = _part.strline;
+}
+);
+width = 1176;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 930;
+};
+pos = (-381,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 930;
+};
+pos = (1225,-442);
+ref = _part.strline;
+}
+);
+width = 1286;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 1076;
+};
+pos = (-314,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 1076;
+};
+pos = (1315,-419);
+ref = _part.strline;
+}
+);
+width = 1420;
+},
+{
+layerId = m007;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 844;
+};
+pos = (-436,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 844;
+};
+pos = (1170,-442);
+ref = _part.strline;
+}
+);
+width = 1176;
+},
+{
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 930;
+};
+pos = (-381,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 930;
+};
+pos = (1225,-442);
+ref = _part.strline;
+}
+);
+width = 1286;
+},
+{
+layerId = m009;
+shapes = (
+{
+alignment = -1;
+piece = {
+Width = 1076;
+};
+pos = (-314,0);
+ref = _part.strline;
+},
+{
+alignment = -1;
+angle = 90;
+piece = {
+Width = 1076;
+};
+pos = (1315,-419);
+ref = _part.strline;
+}
+);
+width = 1420;
+}
+);
+metricLeft = "=minus";
+metricRight = "=minus";
+unicode = 43;
+}

@@ -1,0 +1,97 @@
+{
+glyphname = multiply.case;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+pos = (0,164);
+ref = multiply;
+}
+);
+width = 1176;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1286;
+},
+{
+layerId = m005;
+shapes = (
+{
+pos = (0,164);
+ref = multiply;
+}
+);
+width = 1176;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1420;
+},
+{
+layerId = m009;
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1420;
+},
+{
+layerId = m006;
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1420;
+},
+{
+layerId = m007;
+shapes = (
+{
+pos = (0,164);
+ref = multiply;
+}
+);
+width = 1176;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1286;
+},
+{
+layerId = m008;
+shapes = (
+{
+pos = (0,163);
+ref = multiply;
+}
+);
+width = 1286;
+}
+);
+metricLeft = "=multiply";
+metricRight = "=multiply";
+}
