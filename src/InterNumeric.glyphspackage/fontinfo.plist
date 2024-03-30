@@ -33,6 +33,20 @@ wght = {
 900 = 900;
 };
 };
+},
+{
+name = "Instance Preview";
+value = (
+"1029384756"
+);
+},
+{
+name = blueFuzz;
+value = 0;
+},
+{
+name = blueShift;
+value = 16;
 }
 );
 date = "2024-03-22 12:25:46 +0000";
@@ -78,6 +92,33 @@ axesValues = (
 100,
 -1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Roundness;
+Location = -1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -119,6 +160,33 @@ GSCornerRadius = 15;
 axesValues = (
 100,
 0
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Roundness;
+Location = 0;
+}
+);
+}
 );
 guides = (
 {
@@ -162,6 +230,33 @@ axesValues = (
 100,
 1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Roundness;
+Location = 1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -204,6 +299,33 @@ axesValues = (
 400,
 -1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Roundness;
+Location = -1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -241,6 +363,33 @@ stemValues = (
 axesValues = (
 400,
 0
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Roundness;
+Location = 0;
+}
+);
+}
 );
 guides = (
 {
@@ -283,6 +432,33 @@ axesValues = (
 400,
 1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Roundness;
+Location = 1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -324,6 +500,33 @@ axesValues = (
 900,
 -1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Roundness;
+Location = -1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -362,6 +565,33 @@ stemValues = (
 axesValues = (
 900,
 0
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Roundness;
+Location = 0;
+}
+);
+}
 );
 guides = (
 {
@@ -405,6 +635,33 @@ axesValues = (
 900,
 1
 );
+customParameters = (
+{
+name = hheaAscender;
+value = 1940;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Roundness;
+Location = 1;
+}
+);
+}
+);
 guides = (
 {
 locked = 1;
@@ -447,20 +704,16 @@ instances = (
 {
 axesValues = (
 400,
-0
+-1
 );
 customParameters = (
 {
-name = "Style Name as STAT entry";
-value = wght;
-},
-{
-name = "Style Name as STAT entry";
-value = RDNS;
+name = "Export STAT Table";
+value = 1;
 }
 );
 instanceInterpolations = {
-m008 = 1;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 1;
 };
 name = Regular;
 type = variable;
@@ -598,6 +851,7 @@ instanceInterpolations = {
 m01 = 0.6;
 };
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 },
@@ -721,6 +975,7 @@ m008 = 0.4;
 m009 = 0.6;
 };
 isBold = 1;
+linkStyle = Softened;
 name = "Bold Softened";
 weightClass = 700;
 },
@@ -832,6 +1087,7 @@ m004 = 0.4;
 m006 = 0.6;
 };
 isBold = 1;
+linkStyle = Rounded;
 name = "Bold Rounded";
 weightClass = 700;
 },
@@ -931,6 +1187,9 @@ value = "A versatile numeric font based on Inter.";
 );
 }
 );
+settings = {
+keepAlternatesTogether = 1;
+};
 stems = (
 {
 horizontal = 1;
