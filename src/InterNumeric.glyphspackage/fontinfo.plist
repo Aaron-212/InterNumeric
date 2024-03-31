@@ -778,12 +778,12 @@ name = Regular;
 },
 {
 axesValues = (
-500,
+490,
 -1
 );
 instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.8;
-m01 = 0.2;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.82;
+m01 = 0.18;
 };
 name = Medium;
 properties = (
@@ -800,12 +800,12 @@ weightClass = 500;
 },
 {
 axesValues = (
-600,
+580,
 -1
 );
 instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.6;
-m01 = 0.4;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.64;
+m01 = 0.36;
 };
 name = SemiBold;
 properties = (
@@ -822,12 +822,12 @@ weightClass = 600;
 },
 {
 axesValues = (
-700,
+670,
 -1
 );
 instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.4;
-m01 = 0.6;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.46;
+m01 = 0.54;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -836,12 +836,12 @@ weightClass = 700;
 },
 {
 axesValues = (
-800,
+780,
 -1
 );
 instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.2;
-m01 = 0.8;
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.24;
+m01 = 0.76;
 };
 name = ExtraBold;
 properties = (
@@ -964,12 +964,12 @@ value = Softened;
 },
 {
 axesValues = (
-500,
+490,
 0
 );
 instanceInterpolations = {
-m008 = 0.8;
-m009 = 0.2;
+m008 = 0.82;
+m009 = 0.18;
 };
 name = "Medium Softened";
 properties = (
@@ -986,12 +986,12 @@ weightClass = 500;
 },
 {
 axesValues = (
-600,
+580,
 0
 );
 instanceInterpolations = {
-m008 = 0.6;
-m009 = 0.4;
+m008 = 0.64;
+m009 = 0.36;
 };
 name = "SemiBold Softened";
 properties = (
@@ -1008,12 +1008,12 @@ weightClass = 600;
 },
 {
 axesValues = (
-700,
+670,
 0
 );
 instanceInterpolations = {
-m008 = 0.4;
-m009 = 0.6;
+m008 = 0.46;
+m009 = 0.54;
 };
 isBold = 1;
 linkStyle = Softened;
@@ -1032,12 +1032,12 @@ weightClass = 700;
 },
 {
 axesValues = (
-800,
+780,
 0
 );
 instanceInterpolations = {
-m008 = 0.2;
-m009 = 0.8;
+m008 = 0.24;
+m009 = 0.76;
 };
 name = "ExtraBold Softened";
 properties = (
@@ -1166,12 +1166,12 @@ value = Rounded;
 },
 {
 axesValues = (
-500,
+490,
 1
 );
 instanceInterpolations = {
-m004 = 0.8;
-m006 = 0.2;
+m004 = 0.82;
+m006 = 0.18;
 };
 name = "Medium Rounded";
 properties = (
@@ -1188,12 +1188,12 @@ weightClass = 500;
 },
 {
 axesValues = (
-600,
+580,
 1
 );
 instanceInterpolations = {
-m004 = 0.6;
-m006 = 0.4;
+m004 = 0.64;
+m006 = 0.36;
 };
 name = "SemiBold Rounded";
 properties = (
@@ -1210,12 +1210,12 @@ weightClass = 600;
 },
 {
 axesValues = (
-700,
+670,
 1
 );
 instanceInterpolations = {
-m004 = 0.4;
-m006 = 0.6;
+m004 = 0.46;
+m006 = 0.54;
 };
 isBold = 1;
 linkStyle = Rounded;
@@ -1234,12 +1234,12 @@ weightClass = 700;
 },
 {
 axesValues = (
-800,
+780,
 1
 );
 instanceInterpolations = {
-m004 = 0.2;
-m006 = 0.8;
+m004 = 0.24;
+m006 = 0.76;
 };
 name = "ExtraBold Rounded";
 properties = (
