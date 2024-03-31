@@ -155,7 +155,6 @@ stemValues = (
 userData = {
 GSCornerRadius = 15;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1841,6 +1840,10 @@ language = dflt;
 value = "A versatile numeric font based on Inter.";
 }
 );
+},
+{
+key = vendorID;
+value = AARN;
 }
 );
 settings = {
@@ -1857,5 +1860,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
