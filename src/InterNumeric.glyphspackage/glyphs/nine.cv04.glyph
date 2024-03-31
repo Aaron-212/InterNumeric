@@ -2,6 +2,8 @@
 color = 7;
 export = 0;
 glyphname = nine.cv04;
+kernLeft = nine.1;
+kernRight = nine.1;
 layers = (
 {
 layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";

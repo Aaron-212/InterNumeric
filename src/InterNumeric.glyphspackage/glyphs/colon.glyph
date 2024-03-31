@@ -1,6 +1,8 @@
 {
 color = 8;
 glyphname = colon;
+kernLeft = colon;
+kernRight = colon;
 layers = (
 {
 layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";

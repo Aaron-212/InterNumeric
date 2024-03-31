@@ -1,5 +1,7 @@
 {
 glyphname = quotesingle;
+kernLeft = quotedbl;
+kernRight = quotedbl;
 layers = (
 {
 background = {

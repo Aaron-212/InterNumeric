@@ -703,36 +703,23 @@ GSCornerRadius = 72;
 instances = (
 {
 axesValues = (
-400,
--1
-);
-customParameters = (
-{
-name = "Export STAT Table";
-value = 1;
-}
-);
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 1;
-};
-name = Regular;
-type = variable;
-},
-{
-axesValues = (
 100,
 -1
-);
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
 );
 instanceInterpolations = {
 "45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 1;
 };
 name = Thin;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Thin;
+}
+);
 weightClass = 100;
 },
 {
@@ -740,17 +727,21 @@ axesValues = (
 200,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 "45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.66667;
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.33333;
 };
 name = ExtraLight;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = ExtraLight;
+}
+);
 weightClass = 200;
 },
 {
@@ -758,41 +749,27 @@ axesValues = (
 300,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 "45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.33333;
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.66667;
 };
 name = Light;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Light;
+}
+);
 weightClass = 300;
 },
 {
 axesValues = (
 400,
 -1
-);
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-},
-{
-name = "Style Name as STAT entry";
-value = RDNS;
-},
-{
-name = "Elidable STAT Axis Value Name";
-value = wght;
-},
-{
-name = "Elidable STAT Axis Value Name";
-value = RDNS;
-}
 );
 instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 1;
@@ -804,17 +781,21 @@ axesValues = (
 500,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.8;
 m01 = 0.2;
 };
 name = Medium;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Medium;
+}
+);
 weightClass = 500;
 },
 {
@@ -822,29 +803,27 @@ axesValues = (
 600,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.6;
 m01 = 0.4;
 };
 name = SemiBold;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = SemiBold;
+}
+);
 weightClass = 600;
 },
 {
 axesValues = (
 700,
 -1
-);
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
 );
 instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.4;
@@ -860,17 +839,21 @@ axesValues = (
 800,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.2;
 m01 = 0.8;
 };
 name = ExtraBold;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = ExtraBold;
+}
+);
 weightClass = 800;
 },
 {
@@ -878,16 +861,20 @@ axesValues = (
 900,
 -1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
 instanceInterpolations = {
 m01 = 1;
 };
 name = Black;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Black;
+}
+);
 weightClass = 900;
 },
 {
@@ -899,6 +886,16 @@ instanceInterpolations = {
 m007 = 1;
 };
 name = "Thin Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Thin Softened";
+}
+);
 weightClass = 100;
 },
 {
@@ -911,6 +908,16 @@ m007 = 0.66667;
 m008 = 0.33333;
 };
 name = "ExtraLight Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "ExtraLight Softened";
+}
+);
 weightClass = 200;
 },
 {
@@ -923,6 +930,16 @@ m007 = 0.33333;
 m008 = 0.66667;
 };
 name = "Light Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Light Softened";
+}
+);
 weightClass = 300;
 },
 {
@@ -930,16 +947,20 @@ axesValues = (
 400,
 0
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = RDNS;
-}
-);
 instanceInterpolations = {
 m008 = 1;
 };
 name = Softened;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Softened;
+}
+);
 },
 {
 axesValues = (
@@ -951,6 +972,16 @@ m008 = 0.8;
 m009 = 0.2;
 };
 name = "Medium Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Medium Softened";
+}
+);
 weightClass = 500;
 },
 {
@@ -963,6 +994,16 @@ m008 = 0.6;
 m009 = 0.4;
 };
 name = "SemiBold Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "SemiBold Softened";
+}
+);
 weightClass = 600;
 },
 {
@@ -977,6 +1018,16 @@ m009 = 0.6;
 isBold = 1;
 linkStyle = Softened;
 name = "Bold Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Bold Softened";
+}
+);
 weightClass = 700;
 },
 {
@@ -989,6 +1040,16 @@ m008 = 0.2;
 m009 = 0.8;
 };
 name = "ExtraBold Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "ExtraBold Softened";
+}
+);
 weightClass = 800;
 },
 {
@@ -1000,6 +1061,16 @@ instanceInterpolations = {
 m009 = 1;
 };
 name = "Black Softened";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Black Softened";
+}
+);
 weightClass = 900;
 },
 {
@@ -1011,6 +1082,16 @@ instanceInterpolations = {
 m005 = 1;
 };
 name = "Thin Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Thin Rounded";
+}
+);
 weightClass = 100;
 },
 {
@@ -1023,6 +1104,16 @@ m004 = 0.33333;
 m005 = 0.66667;
 };
 name = "ExtraLight Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "ExtraLight Rounded";
+}
+);
 weightClass = 200;
 },
 {
@@ -1035,6 +1126,16 @@ m004 = 0.66667;
 m005 = 0.33333;
 };
 name = "Light Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Light Rounded";
+}
+);
 weightClass = 300;
 },
 {
@@ -1052,6 +1153,16 @@ instanceInterpolations = {
 m004 = 1;
 };
 name = Rounded;
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = Rounded;
+}
+);
 },
 {
 axesValues = (
@@ -1063,6 +1174,16 @@ m004 = 0.8;
 m006 = 0.2;
 };
 name = "Medium Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Medium Rounded";
+}
+);
 weightClass = 500;
 },
 {
@@ -1075,6 +1196,16 @@ m004 = 0.6;
 m006 = 0.4;
 };
 name = "SemiBold Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "SemiBold Rounded";
+}
+);
 weightClass = 600;
 },
 {
@@ -1089,6 +1220,16 @@ m006 = 0.6;
 isBold = 1;
 linkStyle = Rounded;
 name = "Bold Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Bold Rounded";
+}
+);
 weightClass = 700;
 },
 {
@@ -1101,6 +1242,16 @@ m004 = 0.2;
 m006 = 0.8;
 };
 name = "ExtraBold Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "ExtraBold Rounded";
+}
+);
 weightClass = 800;
 },
 {
@@ -1112,9 +1263,513 @@ instanceInterpolations = {
 m006 = 1;
 };
 name = "Black Rounded";
+properties = (
+{
+key = WWSFamilyName;
+value = "Inter Numeric";
+},
+{
+key = WWSSubfamilyName;
+value = "Black Rounded";
+}
+);
 weightClass = 900;
 }
 );
+kerningLTR = {
+"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -40;
+"@MMK_R_one" = -160;
+"@MMK_R_quotedbl" = -200;
+"@MMK_R_seven" = -70;
+"@MMK_R_six" = -80;
+"@MMK_R_three" = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -70;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_one" = -140;
+"@MMK_R_seven" = -60;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -200;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 40;
+};
+five = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -50;
+};
+six = {
+"@MMK_R_comma" = -70;
+};
+slash = {
+backslash = 40;
+};
+};
+m007 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -40;
+"@MMK_R_one" = -160;
+"@MMK_R_quotedbl" = -200;
+"@MMK_R_seven" = -70;
+"@MMK_R_six" = -80;
+"@MMK_R_three" = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -70;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_one" = -140;
+"@MMK_R_seven" = -60;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -200;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 40;
+};
+five = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -50;
+};
+six = {
+"@MMK_R_comma" = -70;
+};
+slash = {
+backslash = 40;
+};
+};
+m005 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -40;
+"@MMK_R_one" = -160;
+"@MMK_R_quotedbl" = -200;
+"@MMK_R_seven" = -70;
+"@MMK_R_six" = -80;
+"@MMK_R_three" = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -70;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_one" = -140;
+"@MMK_R_seven" = -60;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -80;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -200;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 40;
+};
+five = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -50;
+};
+six = {
+"@MMK_R_comma" = -70;
+};
+slash = {
+backslash = 40;
+};
+};
+"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -200;
+"@MMK_R_quotedbl" = -160;
+"@MMK_R_seven" = -30;
+"@MMK_R_six" = -50;
+"@MMK_R_three" = -20;
+"@MMK_R_two" = 10;
+five = -30;
+nine = -20;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -50;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -80;
+"@MMK_R_seven" = -80;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -50;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -160;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 40;
+};
+five = {
+"@MMK_R_comma" = -60;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 40;
+};
+};
+m008 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -200;
+"@MMK_R_quotedbl" = -160;
+"@MMK_R_seven" = -30;
+"@MMK_R_six" = -50;
+"@MMK_R_three" = -20;
+"@MMK_R_two" = 10;
+five = -30;
+nine = -20;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -50;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -80;
+"@MMK_R_seven" = -80;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -50;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -160;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 30;
+};
+five = {
+"@MMK_R_comma" = -60;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 30;
+};
+};
+m004 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -200;
+"@MMK_R_quotedbl" = -160;
+"@MMK_R_seven" = -30;
+"@MMK_R_six" = -50;
+"@MMK_R_three" = -20;
+"@MMK_R_two" = 10;
+five = -30;
+nine = -20;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -50;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -80;
+"@MMK_R_seven" = -80;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -50;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -160;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 20;
+};
+five = {
+"@MMK_R_comma" = -60;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 20;
+};
+};
+m01 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -240;
+"@MMK_R_quotedbl" = -230;
+"@MMK_R_seven" = -90;
+"@MMK_R_six" = -60;
+"@MMK_R_three" = -40;
+nine = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -20;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -130;
+"@MMK_R_seven" = -120;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -230;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 40;
+};
+five = {
+"@MMK_R_comma" = -30;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 40;
+};
+};
+m009 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -240;
+"@MMK_R_quotedbl" = -230;
+"@MMK_R_seven" = -90;
+"@MMK_R_six" = -60;
+"@MMK_R_three" = -40;
+nine = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -20;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -130;
+"@MMK_R_seven" = -120;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -230;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 30;
+};
+five = {
+"@MMK_R_comma" = -30;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 30;
+};
+};
+m006 = {
+"@MMK_L_comma" = {
+"@MMK_R_eight" = -20;
+"@MMK_R_one" = -240;
+"@MMK_R_quotedbl" = -230;
+"@MMK_R_seven" = -90;
+"@MMK_R_six" = -60;
+"@MMK_R_three" = -40;
+nine = -40;
+};
+"@MMK_L_eight" = {
+"@MMK_R_comma" = -20;
+};
+"@MMK_L_four" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_one" = -130;
+"@MMK_R_seven" = -120;
+};
+"@MMK_L_nine" = {
+"@MMK_R_comma" = -70;
+"@MMK_R_seven" = -40;
+};
+"@MMK_L_quotedbl" = {
+"@MMK_R_comma" = -230;
+"@MMK_R_four" = -120;
+};
+"@MMK_L_seven" = {
+"@MMK_R_colon" = -70;
+"@MMK_R_comma" = -250;
+"@MMK_R_eight" = -30;
+"@MMK_R_four" = -120;
+"@MMK_R_seven" = 40;
+"@MMK_R_six" = -32;
+"@MMK_R_three" = -34;
+five = -20;
+nine = -20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -32;
+};
+backslash = {
+slash = 10;
+};
+five = {
+"@MMK_R_comma" = -30;
+"@MMK_R_one" = -40;
+};
+six = {
+"@MMK_R_comma" = -50;
+};
+slash = {
+backslash = 10;
+};
+};
+};
 metrics = (
 {
 type = ascender;
@@ -1201,5 +1856,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
