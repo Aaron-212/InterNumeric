@@ -40,27 +40,69 @@ width = 1266;
 },
 {
 layerId = m007;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1048,1490);
+ref = six.cv04;
+}
+);
+width = 1048;
 },
 {
 layerId = m008;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1176,1490);
+ref = six.cv04;
+}
+);
+width = 1176;
 },
 {
 layerId = m009;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1266,1490);
+ref = six.cv04;
+}
+);
+width = 1266;
 },
 {
 layerId = m005;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1048,1490);
+ref = six.cv04;
+}
+);
+width = 1048;
 },
 {
 layerId = m004;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1176,1490);
+ref = six.cv04;
+}
+);
+width = 1176;
 },
 {
 layerId = m006;
-width = 1200;
+shapes = (
+{
+angle = 180;
+pos = (1266,1490);
+ref = six.cv04;
+}
+);
+width = 1266;
 }
 );
 }

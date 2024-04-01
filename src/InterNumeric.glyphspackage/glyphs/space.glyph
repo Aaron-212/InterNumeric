@@ -11,15 +11,15 @@ width = 576;
 },
 {
 layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
-width = 600;
+width = 576;
 },
 {
 layerId = m004;
-width = 600;
+width = 576;
 },
 {
 layerId = m005;
-width = 600;
+width = 576;
 },
 {
 layerId = m006;
@@ -27,7 +27,7 @@ width = 576;
 },
 {
 layerId = m007;
-width = 600;
+width = 576;
 },
 {
 layerId = m008;

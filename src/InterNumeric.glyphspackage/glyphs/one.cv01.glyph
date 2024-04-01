@@ -1,7 +1,8 @@
 {
+color = 4;
 glyphname = one.cv01;
 kernLeft = one;
-kernRight = one;
+kernRight = H;
 layers = (
 {
 background = {

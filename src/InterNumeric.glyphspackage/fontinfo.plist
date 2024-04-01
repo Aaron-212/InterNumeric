@@ -65,6 +65,8 @@ automatic = 1;
 code = "feature case;
 feature zero;
 feature cv01;
+feature pnum;
+feature tnum;
 ";
 tag = aalt;
 },
@@ -89,8 +91,67 @@ tag = zero;
 {
 code = "cvParameters { FeatUILabelNameID { name \"Alternate One\"; }; };
 sub one by one.cv01;
+sub one.tf by one.tf.cv01;
 ";
 tag = cv01;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub space.tf by space;
+sub nbspace.tf by nbspace;
+sub period.tf by period;
+sub comma.tf by comma;
+sub colon.tf by colon;
+sub colon.case.tf by colon.case;
+sub hyphen.tf by hyphen;
+sub hyphen.case.tf by hyphen.case;
+sub plus.tf by plus;
+sub minus.tf by minus;
+sub multiply.tf by multiply;
+sub plus.case.tf by plus.case;
+sub minus.case.tf by minus.case;
+sub multiply.case.tf by multiply.case;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub space by space.tf;
+sub nbspace by nbspace.tf;
+sub period by period.tf;
+sub comma by comma.tf;
+sub colon by colon.tf;
+sub colon.case by colon.case.tf;
+sub hyphen by hyphen.tf;
+sub hyphen.case by hyphen.case.tf;
+sub plus by plus.tf;
+sub minus by minus.tf;
+sub multiply by multiply.tf;
+sub plus.case by plus.case.tf;
+sub minus.case by minus.case.tf;
+sub multiply.case by multiply.case.tf;
+";
+tag = tnum;
 }
 );
 fontMaster = (
@@ -1285,6 +1346,9 @@ weightClass = 900;
 );
 kerningLTR = {
 "45635B2B-919A-4B12-975B-2FA0A7CA8B35" = {
+"@MMK_L_A" = {
+"@MMK_R_one" = -10;
+};
 "@MMK_L_comma" = {
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -40;
@@ -1853,9 +1917,6 @@ key = vendorID;
 value = AARN;
 }
 );
-settings = {
-keepAlternatesTogether = 1;
-};
 stems = (
 {
 horizontal = 1;
@@ -1867,5 +1928,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }

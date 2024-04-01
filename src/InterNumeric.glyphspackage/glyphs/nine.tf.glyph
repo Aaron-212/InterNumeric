@@ -1,0 +1,106 @@
+{
+color = 7;
+glyphname = nine.tf;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+alignment = -1;
+pos = (126,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m007;
+shapes = (
+{
+alignment = -1;
+pos = (126,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+pos = (126,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+alignment = -1;
+pos = (62,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+pos = (62,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+pos = (62,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (-1,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m009;
+shapes = (
+{
+alignment = -1;
+pos = (-1,0);
+ref = nine;
+}
+);
+width = 1320;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+pos = (-1,0);
+ref = nine;
+}
+);
+width = 1320;
+}
+);
+metricWidth = zero.tf;
+}
