@@ -64,6 +64,7 @@ features = (
 automatic = 1;
 code = "feature case;
 feature zero;
+feature cv01;
 ";
 tag = aalt;
 },
@@ -84,6 +85,12 @@ automatic = 1;
 code = "sub zero by zero.zero;
 ";
 tag = zero;
+},
+{
+code = "cvParameters { FeatUILabelNameID { name \"Alternate One\"; }; };
+sub one by one.cv01;
+";
+tag = cv01;
 }
 );
 fontMaster = (
@@ -1860,5 +1867,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }

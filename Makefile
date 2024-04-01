@@ -14,14 +14,8 @@ init: requirements.txt
 build: build.stamp
 
 build.stamp: init.stamp
-	fontmake -f src/InterNumeric.glyphspackage -o variable --output-path fonts/variable/InterNumeric[wght,RDNS].otf --filter DecomposeTransformedComponentsFilter
-	python misc/scripts/gen_woff2.py
+	fontmake -g "src/InterNumeric.glyphspackage" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
 	touch build.stamp
-
-ufo: ufo.stamp
-
-ufo.stamp: init.stamp
-	fontmake -f src/InterNumeric.glyphspackage -o ufo --output-dir fonts-temp/master-ufo
 
 zip: build.stamp
 	cp -rf fonts InterNumeric
@@ -29,10 +23,11 @@ zip: build.stamp
 	rm -rf InterNumeric
 
 test: build.stamp
-	fontbakery check-universal fonts/variable/InterNumeric[wght,RDNS].otf
+	fontbakery check-universal fonts/variable/InterNumeric[wght,RDNS].ttf
 
 cleanbuild:
 	rm -rf fonts
+	rm -rf fonts-temp
 	rm build.stamp
 
 cleanufo:
