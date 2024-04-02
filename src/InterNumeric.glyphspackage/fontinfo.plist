@@ -70,30 +70,13 @@ features = (
 automatic = 1;
 code = "feature case;
 feature zero;
-feature cv01;
 feature pnum;
 feature tnum;
+feature cv01;
 feature cv02;
+feature cv03;
 ";
 tag = aalt;
-},
-{
-automatic = 1;
-code = "sub colon by colon.case;
-sub hyphen by hyphen.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
-sub plus by plus.case;
-sub minus by minus.case;
-sub multiply by multiply.case;
-";
-tag = case;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;
-";
-tag = zero;
 },
 {
 automatic = 1;
@@ -156,6 +139,24 @@ sub multiply.case by multiply.case.tf;
 tag = tnum;
 },
 {
+automatic = 1;
+code = "sub colon by colon.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+";
+tag = zero;
+},
+{
 code = "cvParameters { FeatUILabelNameID { name \"Alternate One\"; }; };
 
 sub one by one.cv01;
@@ -170,6 +171,14 @@ sub three by three.cv02;
 sub three.tf by three.tf.cv02;
 ";
 tag = cv02;
+},
+{
+code = "cvParameters { FeatUILabelNameID { name \"Open Four\"; }; };
+
+sub four by four.cv03;
+sub four.tf by four.tf.cv03;
+";
+tag = cv03;
 }
 );
 fontMaster = (
