@@ -1,13 +1,13 @@
 {
 color = 7;
-glyphname = plus.case.tf;
+glyphname = multiply.tf.case;
 layers = (
 {
 layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
 shapes = (
 {
 pos = (72,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -17,7 +17,7 @@ layerId = m007;
 shapes = (
 {
 pos = (72,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -27,7 +27,7 @@ layerId = m005;
 shapes = (
 {
 pos = (72,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -37,7 +37,7 @@ layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
 shapes = (
 {
 pos = (17,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -47,7 +47,7 @@ layerId = m008;
 shapes = (
 {
 pos = (17,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -57,7 +57,7 @@ layerId = m004;
 shapes = (
 {
 pos = (17,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -67,7 +67,7 @@ layerId = m01;
 shapes = (
 {
 pos = (-50,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -77,7 +77,7 @@ layerId = m009;
 shapes = (
 {
 pos = (-50,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;
@@ -87,7 +87,7 @@ layerId = m006;
 shapes = (
 {
 pos = (-50,0);
-ref = plus.case;
+ref = multiply.case;
 }
 );
 width = 1320;

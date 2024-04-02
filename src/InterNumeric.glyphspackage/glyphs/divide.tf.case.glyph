@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = divide.case.tf;
+glyphname = divide.tf.case;
 layers = (
 {
 layerId = m008;

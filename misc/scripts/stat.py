@@ -24,8 +24,8 @@ axes = [
         tag="RDNS",
         name="Roundness",
         values=[
-            dict(value=-1, name='Regular'),
-            dict(value=0, name='Softened', flags=0x2),
+            dict(value=-1, name='Regular', flags=0x2),
+            dict(value=0, name='Softened'),
             dict(value=1, name='Rounded'),
         ],
     )
