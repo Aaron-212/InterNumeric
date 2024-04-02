@@ -71,7 +71,6 @@ automatic = 1;
 code = "feature pnum;
 feature tnum;
 feature case;
-feature zero;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -90,7 +89,6 @@ sub six.tf by six;
 sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
-sub zero.zero.tf by zero.zero;
 sub space.tf by space;
 sub nbspace.tf by nbspace;
 sub period.tf by period;
@@ -120,7 +118,6 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
-sub zero.zero by zero.zero.tf;
 sub space by space.tf;
 sub nbspace by nbspace.tf;
 sub period by period.tf;
@@ -151,8 +148,7 @@ sub multiply by multiply.case;
 tag = case;
 },
 {
-automatic = 1;
-code = "sub zero by zero.zero;
+code = "include(features/zero.fea);
 ";
 tag = zero;
 },

@@ -1,6 +1,6 @@
 {
 color = 8;
-glyphname = zero.zero;
+glyphname = zero.slash;
 kernLeft = six;
 kernRight = nine;
 layers = (
