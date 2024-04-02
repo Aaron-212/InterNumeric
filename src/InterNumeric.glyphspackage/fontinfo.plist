@@ -802,16 +802,6 @@ instanceInterpolations = {
 "45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 1;
 };
 name = Thin;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Thin;
-}
-);
 weightClass = 100;
 },
 {
@@ -824,16 +814,6 @@ instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.33333;
 };
 name = ExtraLight;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = ExtraLight;
-}
-);
 weightClass = 200;
 },
 {
@@ -846,16 +826,6 @@ instanceInterpolations = {
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.66667;
 };
 name = Light;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Light;
-}
-);
 weightClass = 300;
 },
 {
@@ -878,16 +848,6 @@ instanceInterpolations = {
 m01 = 0.18;
 };
 name = Medium;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Medium;
-}
-);
 weightClass = 500;
 },
 {
@@ -900,16 +860,6 @@ instanceInterpolations = {
 m01 = 0.36;
 };
 name = SemiBold;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = SemiBold;
-}
-);
 weightClass = 600;
 },
 {
@@ -936,16 +886,6 @@ instanceInterpolations = {
 m01 = 0.76;
 };
 name = ExtraBold;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = ExtraBold;
-}
-);
 weightClass = 800;
 },
 {
@@ -957,16 +897,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Black;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Black;
-}
-);
 weightClass = 900;
 },
 {
@@ -978,16 +908,6 @@ instanceInterpolations = {
 m007 = 1;
 };
 name = "Thin Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Thin Softened";
-}
-);
 weightClass = 100;
 },
 {
@@ -1000,16 +920,6 @@ m007 = 0.66667;
 m008 = 0.33333;
 };
 name = "ExtraLight Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "ExtraLight Softened";
-}
-);
 weightClass = 200;
 },
 {
@@ -1022,16 +932,6 @@ m007 = 0.33333;
 m008 = 0.66667;
 };
 name = "Light Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Light Softened";
-}
-);
 weightClass = 300;
 },
 {
@@ -1043,16 +943,6 @@ instanceInterpolations = {
 m008 = 1;
 };
 name = Softened;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Softened;
-}
-);
 },
 {
 axesValues = (
@@ -1064,16 +954,6 @@ m008 = 0.82;
 m009 = 0.18;
 };
 name = "Medium Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Medium Softened";
-}
-);
 weightClass = 500;
 },
 {
@@ -1086,16 +966,6 @@ m008 = 0.64;
 m009 = 0.36;
 };
 name = "SemiBold Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "SemiBold Softened";
-}
-);
 weightClass = 600;
 },
 {
@@ -1110,16 +980,6 @@ m009 = 0.54;
 isBold = 1;
 linkStyle = Softened;
 name = "Bold Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Bold Softened";
-}
-);
 weightClass = 700;
 },
 {
@@ -1132,16 +992,6 @@ m008 = 0.24;
 m009 = 0.76;
 };
 name = "ExtraBold Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "ExtraBold Softened";
-}
-);
 weightClass = 800;
 },
 {
@@ -1153,16 +1003,6 @@ instanceInterpolations = {
 m009 = 1;
 };
 name = "Black Softened";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Black Softened";
-}
-);
 weightClass = 900;
 },
 {
@@ -1174,16 +1014,6 @@ instanceInterpolations = {
 m005 = 1;
 };
 name = "Thin Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Thin Rounded";
-}
-);
 weightClass = 100;
 },
 {
@@ -1196,16 +1026,6 @@ m004 = 0.33333;
 m005 = 0.66667;
 };
 name = "ExtraLight Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "ExtraLight Rounded";
-}
-);
 weightClass = 200;
 },
 {
@@ -1218,16 +1038,6 @@ m004 = 0.66667;
 m005 = 0.33333;
 };
 name = "Light Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Light Rounded";
-}
-);
 weightClass = 300;
 },
 {
@@ -1235,26 +1045,10 @@ axesValues = (
 400,
 1
 );
-customParameters = (
-{
-name = "Style Name as STAT entry";
-value = RDNS;
-}
-);
 instanceInterpolations = {
 m004 = 1;
 };
 name = Rounded;
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = Rounded;
-}
-);
 },
 {
 axesValues = (
@@ -1266,16 +1060,6 @@ m004 = 0.82;
 m006 = 0.18;
 };
 name = "Medium Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Medium Rounded";
-}
-);
 weightClass = 500;
 },
 {
@@ -1288,16 +1072,6 @@ m004 = 0.64;
 m006 = 0.36;
 };
 name = "SemiBold Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "SemiBold Rounded";
-}
-);
 weightClass = 600;
 },
 {
@@ -1312,16 +1086,6 @@ m006 = 0.54;
 isBold = 1;
 linkStyle = Rounded;
 name = "Bold Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Bold Rounded";
-}
-);
 weightClass = 700;
 },
 {
@@ -1334,16 +1098,6 @@ m004 = 0.24;
 m006 = 0.76;
 };
 name = "ExtraBold Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "ExtraBold Rounded";
-}
-);
 weightClass = 800;
 },
 {
@@ -1355,16 +1109,6 @@ instanceInterpolations = {
 m006 = 1;
 };
 name = "Black Rounded";
-properties = (
-{
-key = WWSFamilyName;
-value = "Inter Numeric";
-},
-{
-key = WWSSubfamilyName;
-value = "Black Rounded";
-}
-);
 weightClass = 900;
 }
 );

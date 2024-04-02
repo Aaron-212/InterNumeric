@@ -13,8 +13,13 @@ init: requirements.txt
 
 build: build.stamp
 
+# fontmake -g "src/InterNumeric.glyphspackage" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter --verbose DEBUG
+# fontmake -g "src/InterNumeric.glyphspackage" -o variable-cff2 --output-path "fonts/variable/InterNumeric[wght,RDNS].otf" --filter DecomposeTransformedComponentsFilter --verbose DEBUG
+# fontmake -g "src/InterNumeric.glyphspackage" -o otf --output-dir "fonts/static/" --filter DecomposeTransformedComponentsFilter -i
+
 build.stamp: init.stamp
 	fontmake -g "src/InterNumeric.glyphspackage" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
+	python misc/scripts/stat.py
 	touch build.stamp
 
 zip: build.stamp
