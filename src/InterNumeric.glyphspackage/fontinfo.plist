@@ -148,7 +148,8 @@ sub multiply by multiply.case;
 tag = case;
 },
 {
-code = "include(features/zero.fea);
+code = "sub zero by zero.slash;
+sub zero.tf by zero.tf.slash;
 ";
 tag = zero;
 },
