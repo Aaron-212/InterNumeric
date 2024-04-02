@@ -23,7 +23,7 @@ zip: build.stamp
 	rm -rf InterNumeric
 
 test: build.stamp
-	fontbakery check-universal fonts/variable/InterNumeric[wght,RDNS].ttf
+	fontbakery check-universal "fonts/variable/InterNumeric[wght,RDNS].ttf"
 
 cleanbuild:
 	rm -rf fonts

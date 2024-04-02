@@ -47,6 +47,12 @@ value = 0;
 {
 name = blueShift;
 value = 16;
+},
+{
+name = fsType;
+value = (
+3
+);
 }
 );
 date = "2024-03-22 12:25:46 +0000";
@@ -67,6 +73,7 @@ feature zero;
 feature cv01;
 feature pnum;
 feature tnum;
+feature cv02;
 ";
 tag = aalt;
 },
@@ -89,13 +96,6 @@ code = "sub zero by zero.zero;
 tag = zero;
 },
 {
-code = "cvParameters { FeatUILabelNameID { name \"Alternate One\"; }; };
-sub one by one.cv01;
-sub one.tf by one.tf.cv01;
-";
-tag = cv01;
-},
-{
 automatic = 1;
 code = "sub zero.tf by zero;
 sub one.tf by one;
@@ -107,6 +107,7 @@ sub six.tf by six;
 sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
+sub zero.zero.tf by zero.zero;
 sub space.tf by space;
 sub nbspace.tf by nbspace;
 sub period.tf by period;
@@ -136,6 +137,7 @@ sub six by six.tf;
 sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
+sub zero.zero by zero.zero.tf;
 sub space by space.tf;
 sub nbspace by nbspace.tf;
 sub period by period.tf;
@@ -152,6 +154,22 @@ sub minus.case by minus.case.tf;
 sub multiply.case by multiply.case.tf;
 ";
 tag = tnum;
+},
+{
+code = "cvParameters { FeatUILabelNameID { name \"Alternate One\"; }; };
+
+sub one by one.cv01;
+sub one.tf by one.tf.cv01;
+";
+tag = cv01;
+},
+{
+code = "cvParameters { FeatUILabelNameID { name \"Flat Three\"; }; };
+
+sub three by three.cv02;
+sub three.tf by three.tf.cv02;
+";
+tag = cv02;
 }
 );
 fontMaster = (
@@ -1349,7 +1367,11 @@ kerningLTR = {
 "@MMK_L_A" = {
 "@MMK_R_one" = -10;
 };
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -40;
 "@MMK_R_one" = -160;
@@ -1403,7 +1425,11 @@ backslash = 40;
 };
 };
 m007 = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -40;
 "@MMK_R_one" = -160;
@@ -1457,7 +1483,11 @@ backslash = 40;
 };
 };
 m005 = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -30;
 "@MMK_R_four" = -40;
 "@MMK_R_one" = -160;
@@ -1511,7 +1541,11 @@ backslash = 40;
 };
 };
 "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -20;
 "@MMK_R_one" = -200;
 "@MMK_R_quotedbl" = -160;
@@ -1567,7 +1601,11 @@ backslash = 40;
 };
 };
 m008 = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -20;
 "@MMK_R_one" = -200;
 "@MMK_R_quotedbl" = -160;
@@ -1623,7 +1661,11 @@ backslash = 30;
 };
 };
 m004 = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -20;
 "@MMK_R_one" = -200;
 "@MMK_R_quotedbl" = -160;
@@ -1679,7 +1721,11 @@ backslash = 20;
 };
 };
 m01 = {
+"@MMK_L_D" = {
+"@MMK_R_comma" = -90;
+};
 "@MMK_L_comma" = {
+"@MMK_R_C" = -90;
 "@MMK_R_eight" = -20;
 "@MMK_R_one" = -240;
 "@MMK_R_quotedbl" = -230;

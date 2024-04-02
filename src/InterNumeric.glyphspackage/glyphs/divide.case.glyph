@@ -1,0 +1,42 @@
+{
+export = 0;
+glyphname = divide.case;
+layers = (
+{
+layerId = m008;
+width = 600;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+},
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+width = 600;
+},
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m009;
+width = 600;
+},
+{
+layerId = m006;
+width = 600;
+},
+{
+layerId = m007;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+}
+);
+}
