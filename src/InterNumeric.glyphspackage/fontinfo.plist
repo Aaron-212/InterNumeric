@@ -68,10 +68,10 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature case;
-feature zero;
-feature pnum;
+code = "feature pnum;
 feature tnum;
+feature case;
+feature zero;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -190,7 +190,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -225,7 +225,7 @@ iconName = Light;
 id = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 16;
@@ -259,7 +259,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -294,7 +294,7 @@ iconName = Light;
 id = m007;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 16;
@@ -328,7 +328,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -363,7 +363,7 @@ iconName = Light;
 id = m005;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 16;
@@ -397,7 +397,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -431,7 +431,7 @@ pos = (0,745);
 id = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
@@ -462,7 +462,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -496,7 +496,7 @@ pos = (0,745);
 id = m008;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
@@ -530,7 +530,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -564,7 +564,7 @@ pos = (0,745);
 id = m004;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
@@ -598,7 +598,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -633,7 +633,7 @@ iconName = Bold;
 id = m01;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
@@ -664,7 +664,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -699,7 +699,7 @@ iconName = Bold;
 id = m009;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
@@ -733,7 +733,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1940;
+value = 1984;
 },
 {
 name = hheaLineGap;
@@ -768,7 +768,7 @@ iconName = Bold;
 id = m006;
 metricValues = (
 {
-pos = 1940;
+pos = 1984;
 },
 {
 over = 24;
