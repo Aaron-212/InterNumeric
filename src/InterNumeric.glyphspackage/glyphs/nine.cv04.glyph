@@ -1,6 +1,5 @@
 {
 color = 7;
-export = 0;
 glyphname = nine.cv04;
 kernLeft = nine.1;
 kernRight = nine.1;

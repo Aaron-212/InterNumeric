@@ -6,14 +6,19 @@ Inter Numeric is a variable font based on Inter, providing a versatile look for 
 
 ## OpenType Features
 
-- Slashed Zero
-- Case-sensitive Form
+- `zero`: Slashed Zero
+- `cv01`: Alternate One
+- `cv02`: Flat Three
+- `cv03`: Open Four
+- `cv04`: Straight Six and Nine
+- `tnum`: Tabular Numbers
+- `pnum`: Propotional Numbers (Default)
+- `case`: Case-sensitive Form
 
 ## Roadmap
 
-- Alternate form for 1, 3, 4, 6 and 9
-- Tabular Forms
 - Include some capital letter so that we can use A.M. and P.M.? Maybe?
+- A Width axis? That might be way too much work.
 
 ## Issues
 
