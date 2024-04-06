@@ -1839,5 +1839,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }

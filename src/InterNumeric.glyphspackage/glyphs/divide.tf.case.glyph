@@ -1,42 +1,97 @@
 {
-export = 0;
+color = 7;
 glyphname = divide.tf.case;
 layers = (
 {
 layerId = m008;
-width = 600;
+shapes = (
+{
+pos = (17,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
-width = 600;
+shapes = (
+{
+pos = (17,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m005;
-width = 600;
+shapes = (
+{
+pos = (72,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
-width = 600;
+shapes = (
+{
+pos = (72,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+pos = (-50,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m009;
-width = 600;
+shapes = (
+{
+pos = (-50,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m006;
-width = 600;
+shapes = (
+{
+pos = (-50,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m007;
-width = 600;
+shapes = (
+{
+pos = (72,0);
+ref = divide.case;
+}
+);
+width = 1320;
 },
 {
 layerId = m004;
-width = 600;
+shapes = (
+{
+pos = (17,0);
+ref = divide.case;
 }
 );
+width = 1320;
+}
+);
+metricWidth = zero.tf;
 }
