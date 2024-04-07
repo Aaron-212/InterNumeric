@@ -100,6 +100,8 @@ sub hyphen.tf by hyphen;
 sub plus.tf by plus;
 sub minus.tf by minus;
 sub multiply.tf by multiply;
+sub divide.tf by divide;
+sub asciitilde.tf by asciitilde;
 ";
 tag = pnum;
 },
@@ -124,6 +126,8 @@ sub hyphen by hyphen.tf;
 sub plus by plus.tf;
 sub minus by minus.tf;
 sub multiply by multiply.tf;
+sub divide by divide.tf;
+sub asciitilde by asciitilde.tf;
 ";
 tag = tnum;
 },
@@ -138,9 +142,13 @@ sub hyphen.tf by hyphen.tf.case;
 sub plus by plus.case;
 sub minus by minus.case;
 sub multiply by multiply.case;
+sub divide by divide.case;
+sub asciitilde by asciitilde.case;
 sub plus.tf by plus.tf.case;
 sub minus.tf by minus.tf.case;
 sub multiply.tf by multiply.tf.case;
+sub divide.tf by divide.tf.case;
+sub asciitilde.tf by asciitilde.tf.case;
 ";
 tag = case;
 },

@@ -1,6 +1,7 @@
 {
 displayStrings = (
 "’,/comma.tf",
-"2/two.tf"
+"2/two.tf",
+"."
 );
 }
