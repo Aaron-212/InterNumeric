@@ -13,12 +13,14 @@ init: requirements.txt
 
 build: build.stamp
 
-# fontmake -g "src/InterNumeric.glyphspackage" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter --verbose DEBUG
-# fontmake -g "src/InterNumeric.glyphspackage" -o variable-cff2 --output-path "fonts/variable/InterNumeric[wght,RDNS].otf" --filter DecomposeTransformedComponentsFilter --verbose DEBUG
-# fontmake -g "src/InterNumeric.glyphspackage" -o otf --output-dir "fonts/static/" --filter DecomposeTransformedComponentsFilter -i
+# fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
+# fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable-cff2 --output-path "fonts/variable/InterNumeric[wght,RDNS].otf"
+
 
 build.stamp: init.stamp
-	fontmake -g "src/InterNumeric.glyphspackage" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
+	fontmake -g "src/InterNumeric.glyphspackage" -o ufo --output-dir "fonts-temp/master-ufo" --filter DecomposeTransformedComponentsFilter
+	python misc/scripts/copy_kern.py
+	fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
 	python misc/scripts/stat.py
 	touch build.stamp
 
@@ -30,14 +32,10 @@ zip: build.stamp
 test: build.stamp
 	fontbakery check-universal "fonts/variable/InterNumeric[wght,RDNS].ttf"
 
-cleanbuild:
+clean:
 	rm -rf fonts
 	rm -rf fonts-temp
 	rm build.stamp
-
-cleanufo:
-	rm -rf fonts-temp
-	rm ufo.stamp
 
 update:
 	pip install -Ur requirements.txt
