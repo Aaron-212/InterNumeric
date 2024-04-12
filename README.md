@@ -11,13 +11,18 @@ Inter Numeric is a variable font based on Inter, providing a versatile look for 
 - `cv02`: Flat Three
 - `cv03`: Open Four
 - `cv04`: Straight Six and Nine
+- `cv05`: Square Zero
 - `tnum`: Tabular Numbers
 - `pnum`: Propotional Numbers (Default)
 - `case`: Case-sensitive Form
 
+## Avaliable Glyphs
+
+
+
 ## Roadmap
 
-- Include some capital letter so that we can use A.M. and P.M.? Maybe?
+- Include some capital letters so that we can use A.M. and P.M.? Maybe?
 - A Width axis? That might be way too much work.
 
 ## Issues

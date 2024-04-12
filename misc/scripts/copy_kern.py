@@ -1,4 +1,11 @@
-import shutil, os
+import shutil
+import os
+
+# Original Inter Kerning
+inter_dlight_kerning_path = "src/InterKernings/Inter-Dlight-Kerning.plist"
+inter_dregular_kerning_path = "src/InterKernings/Inter-DRegular-Kerning.plist"
+inter_dblack_kerning_path = "src/InterKernings/Inter-DBlack-Kerning.plist"
+
 
 # Paths to the UFOs
 inter_numeric_Light_path = "fonts-temp/master-ufo/InterNumeric-Light.ufo"
@@ -15,17 +22,14 @@ inter_numeric_BlackRounded_path = "fonts-temp/master-ufo/InterNumeric-BlackRound
 
 kerning_plist = "kerning.plist"
 
-shutil.copy(os.path.join(inter_numeric_Light_path, kerning_plist), 
-           os.path.join(inter_numeric_LightSoftened_path, kerning_plist))
-shutil.copy(os.path.join(inter_numeric_Light_path, kerning_plist), 
-           os.path.join(inter_numeric_LightRounded_path, kerning_plist))
+shutil.copy(inter_dlight_kerning_path, os.path.join(inter_numeric_Light_path, kerning_plist))
+shutil.copy(inter_dlight_kerning_path, os.path.join(inter_numeric_LightSoftened_path, kerning_plist))
+shutil.copy(inter_dlight_kerning_path, os.path.join(inter_numeric_LightRounded_path, kerning_plist))
 
-shutil.copy(os.path.join(inter_numeric_Regular_path, kerning_plist), 
-           os.path.join(inter_numeric_Softened_path, kerning_plist))
-shutil.copy(os.path.join(inter_numeric_Regular_path, kerning_plist), 
-           os.path.join(inter_numeric_Rounded_path, kerning_plist))
+shutil.copy(inter_dregular_kerning_path, os.path.join(inter_numeric_Regular_path, kerning_plist))
+shutil.copy(inter_dregular_kerning_path, os.path.join(inter_numeric_Softened_path, kerning_plist))
+shutil.copy(inter_dregular_kerning_path, os.path.join(inter_numeric_Rounded_path, kerning_plist))
 
-shutil.copy(os.path.join(inter_numeric_Black_path, kerning_plist), 
-           os.path.join(inter_numeric_BlackSoftened_path, kerning_plist))
-shutil.copy(os.path.join(inter_numeric_Black_path, kerning_plist), 
-           os.path.join(inter_numeric_BlackRounded_path, kerning_plist))
+shutil.copy(inter_dblack_kerning_path, os.path.join(inter_numeric_Black_path, kerning_plist))
+shutil.copy(inter_dblack_kerning_path, os.path.join(inter_numeric_BlackSoftened_path, kerning_plist))
+shutil.copy(inter_dblack_kerning_path, os.path.join(inter_numeric_BlackRounded_path, kerning_plist))
