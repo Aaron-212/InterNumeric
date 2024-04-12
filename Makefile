@@ -13,15 +13,15 @@ init: requirements.txt
 
 build: build.stamp
 
-# fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
+# fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter --verbose DEBUG
 # fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable-cff2 --output-path "fonts/variable/InterNumeric[wght,RDNS].otf"
 
 
 build.stamp: init.stamp
 	fontmake -g "src/InterNumeric.glyphspackage" -o ufo --output-dir "fonts-temp/master-ufo" --filter DecomposeTransformedComponentsFilter
 	python misc/scripts/copy_kern.py
-	fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
 	python misc/scripts/stat.py
+	fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
 	python misc/scripts/gen_woff2.py
 	touch build.stamp
 
