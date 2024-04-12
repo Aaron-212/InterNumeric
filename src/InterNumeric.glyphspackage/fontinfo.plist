@@ -76,6 +76,7 @@ feature cv01;
 feature cv02;
 feature cv03;
 feature cv04;
+feature cv05;
 ";
 tag = aalt;
 },
@@ -191,6 +192,16 @@ sub six.tf by six.tf.cv04;
 sub nine.tf by nine.tf.cv04;
 ";
 tag = cv04;
+},
+{
+code = "cvParameters { FeatUILabelNameID { name \"Square Zero\"; }; };
+
+sub zero by zero.cv05;
+sub zero.slash by zero.slash.cv05;
+sub zero.tf by zero.tf.cv05;
+sub zero.tf.slash by zero.tf.slash.cv05;
+";
+tag = cv05;
 }
 );
 fontMaster = (
@@ -260,7 +271,7 @@ stemValues = (
 46
 );
 userData = {
-GSCornerRadius = 15;
+GSCornerRadius = 320;
 };
 },
 {
@@ -1431,5 +1442,5 @@ name = V;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 6;
 }

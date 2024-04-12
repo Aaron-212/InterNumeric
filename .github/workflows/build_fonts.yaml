@@ -60,6 +60,7 @@ jobs:
       - name: Define version (branch)
         if: ${{ ! startsWith(github.ref, 'refs/tags/v') }}
         run: |
+          python misc/scripts/get_ver.py
           GITSHA=${{ github.sha }}
           VERSION=$(cat version.txt)
           echo "InterNumeric_version=${VERSION}-${GITSHA:0:7}" >> $GITHUB_ENV

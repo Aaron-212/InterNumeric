@@ -1,0 +1,118 @@
+{
+color = 7;
+glyphname = zero.slash.cv05;
+layers = (
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+pos = (28,1);
+ref = _part.zeroslash;
+}
+);
+width = 1138;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1256;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+pos = (28,1);
+ref = _part.zeroslash;
+}
+);
+width = 1138;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1396;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1396;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1396;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+pos = (28,1);
+ref = _part.zeroslash;
+}
+);
+width = 1138;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1256;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = zero.cv05;
+},
+{
+ref = _part.zeroslash;
+}
+);
+width = 1256;
+}
+);
+metricWidth = zero;
+}
