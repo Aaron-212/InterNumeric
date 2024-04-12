@@ -1,18 +1,17 @@
-from fontTools.ufoLib import UFOReader
 import os
+from glyphsLib import GSFont
 
-def get_font_version(ufo_path):
-    reader = UFOReader(ufo_path)
-    info = reader._readInfo(validate=False)
-    return info["versionMajor"], info["versionMinor"]
+def get_font_version(glyphspackage_path):
+    font = GSFont(glyphspackage_path)
 
-inter_numeric_Regular_path = "fonts-temp/master-ufo/InterNumeric-Regular.ufo"
-version_major, version_minor = get_font_version(inter_numeric_Regular_path)
+    return f"{font.versionMajor}.{font.versionMinor:03}"
+
+inter_numeric_src_path = "src/InterNumeric.glyphspackage"
 
 try:
-    os.remove("version1.txt")
+    os.remove("version.txt")
 except FileNotFoundError:
     pass
 
 with open("version.txt", "w") as version_file:
-    version_file.write(f"{version_major}.{version_minor:03}")
+    version_file.write(get_font_version(inter_numeric_src_path))
