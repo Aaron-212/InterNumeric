@@ -2,7 +2,7 @@ import shutil
 import os
 
 # Original Inter Kerning
-inter_dlight_kerning_path = "src/InterKernings/Inter-Dlight-Kerning.plist"
+inter_dlight_kerning_path = "src/InterKernings/Inter-DLight-Kerning.plist"
 inter_dregular_kerning_path = "src/InterKernings/Inter-DRegular-Kerning.plist"
 inter_dblack_kerning_path = "src/InterKernings/Inter-DBlack-Kerning.plist"
 
