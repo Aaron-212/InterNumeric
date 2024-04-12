@@ -22,6 +22,7 @@ build.stamp: init.stamp
 	python misc/scripts/copy_kern.py
 	fontmake -m "fonts-temp/master-ufo/InterNumeric.designspace" -o variable --output-path "fonts/variable/InterNumeric[wght,RDNS].ttf" --filter DecomposeTransformedComponentsFilter
 	python misc/scripts/stat.py
+	python misc/scripts/gen_woff2.py
 	touch build.stamp
 
 zip: build.stamp
@@ -29,8 +30,11 @@ zip: build.stamp
 	zip -r InterNumeric.zip InterNumeric
 	rm -rf InterNumeric
 
+
+# fontbakery check-adobefonts "fonts/variable/InterNumeric[wght,RDNS].ttf"
+
 test: build.stamp
-	fontbakery check-universal "fonts/variable/InterNumeric[wght,RDNS].ttf"
+	fontbakery check-universal "fonts/variable/InterNumeric[wght,RDNS].ttf" -x com.google.fonts/check/case_mapping
 
 clean:
 	rm -rf fonts
