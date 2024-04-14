@@ -11,7 +11,7 @@ Inter Numeric is a variable font based on Inter, providing a versatile look for 
 - `cv02`: Flat Three
 - `cv03`: Open Four
 - `cv04`: Straight Six and Nine
-- `cv05`: Square Zero
+- `cv05`: Square Zero, Six and Nine
 - `tnum`: Tabular Numbers
 - `pnum`: Propotional Numbers (Default)
 - `case`: Case-sensitive Form

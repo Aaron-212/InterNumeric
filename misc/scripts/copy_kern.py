@@ -1,6 +1,13 @@
 import shutil
 import os
 
+"""
+    Copy Inter's kerning data to Inter Numeric.
+    So there's no need to adjust kerning.
+    But that also means I will have little space for new glyphs, because
+    all the kernings I made will be overridden.
+"""
+
 # Original Inter Kerning
 inter_dlight_kerning_path = "src/InterKernings/Inter-DLight-Kerning.plist"
 inter_dregular_kerning_path = "src/InterKernings/Inter-DRegular-Kerning.plist"

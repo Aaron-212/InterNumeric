@@ -6,6 +6,7 @@ layers = (
 layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
 shapes = (
 {
+alignment = -1;
 pos = (75,0);
 ref = colon.case;
 }
@@ -16,7 +17,8 @@ width = 550;
 layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
 shapes = (
 {
-pos = (50,0);
+alignment = -1;
+pos = (50,-2);
 ref = colon.case;
 }
 );
@@ -26,16 +28,16 @@ width = 550;
 layerId = m01;
 shapes = (
 {
-pos = (3,0);
 ref = colon.case;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = m005;
 shapes = (
 {
+alignment = -1;
 pos = (75,0);
 ref = colon.case;
 }
@@ -46,6 +48,7 @@ width = 550;
 layerId = m004;
 shapes = (
 {
+alignment = -1;
 pos = (50,0);
 ref = colon.case;
 }
@@ -56,16 +59,16 @@ width = 550;
 layerId = m006;
 shapes = (
 {
-pos = (3,0);
 ref = colon.case;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = m007;
 shapes = (
 {
+alignment = -1;
 pos = (75,0);
 ref = colon.case;
 }
@@ -76,6 +79,7 @@ width = 550;
 layerId = m008;
 shapes = (
 {
+alignment = -1;
 pos = (50,0);
 ref = colon.case;
 }
@@ -86,11 +90,10 @@ width = 550;
 layerId = m009;
 shapes = (
 {
-pos = (3,0);
 ref = colon.case;
 }
 );
-width = 550;
+width = 544;
 }
 );
 metricWidth = period.tf;

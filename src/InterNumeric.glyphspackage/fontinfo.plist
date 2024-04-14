@@ -1,5 +1,5 @@
 {
-.appVersion = "3135";
+.appVersion = "3300";
 .formatVersion = 3;
 axes = (
 {
@@ -15,24 +15,6 @@ customParameters = (
 {
 name = "Variable Font Origin";
 value = m008;
-},
-{
-name = "Axis Mappings";
-value = {
-RDNS = {
--1 = -1;
-1 = 1;
-};
-wght = {
-100 = 100;
-400 = 400;
-500 = 490;
-600 = 580;
-700 = 670;
-800 = 780;
-900 = 900;
-};
-};
 },
 {
 name = "Instance Preview";
@@ -53,6 +35,24 @@ name = fsType;
 value = (
 3
 );
+},
+{
+name = "Axis Mappings";
+value = {
+RDNS = {
+-1 = -1;
+1 = 1;
+};
+wght = {
+100 = 100;
+400 = 400;
+490 = 500;
+580 = 600;
+670 = 700;
+780 = 800;
+900 = 900;
+};
+};
 }
 );
 date = "2024-03-22 12:25:46 +0000";
@@ -820,13 +820,14 @@ GSCornerRadius = 72;
 );
 instances = (
 {
+name = Variable;
+type = variable;
+},
+{
 axesValues = (
 100,
 -1
 );
-instanceInterpolations = {
-"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 1;
-};
 name = Thin;
 weightClass = 100;
 },
@@ -835,10 +836,6 @@ axesValues = (
 200,
 -1
 );
-instanceInterpolations = {
-"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.66667;
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.33333;
-};
 name = ExtraLight;
 weightClass = 200;
 },
@@ -847,10 +844,6 @@ axesValues = (
 300,
 -1
 );
-instanceInterpolations = {
-"45635B2B-919A-4B12-975B-2FA0A7CA8B35" = 0.33333;
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.66667;
-};
 name = Light;
 weightClass = 300;
 },
@@ -859,44 +852,29 @@ axesValues = (
 400,
 -1
 );
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 1;
-};
 name = Regular;
 },
 {
 axesValues = (
-490,
+500,
 -1
 );
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.82;
-m01 = 0.18;
-};
 name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-580,
+600,
 -1
 );
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.64;
-m01 = 0.36;
-};
 name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
-670,
+700,
 -1
 );
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.46;
-m01 = 0.54;
-};
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
@@ -904,13 +882,9 @@ weightClass = 700;
 },
 {
 axesValues = (
-780,
+800,
 -1
 );
-instanceInterpolations = {
-"B487E3D2-4ABF-4A2A-A195-DC6AACAFF568" = 0.24;
-m01 = 0.76;
-};
 name = ExtraBold;
 weightClass = 800;
 },
@@ -919,9 +893,6 @@ axesValues = (
 900,
 -1
 );
-instanceInterpolations = {
-m01 = 1;
-};
 name = Black;
 weightClass = 900;
 },
@@ -930,9 +901,6 @@ axesValues = (
 100,
 0
 );
-instanceInterpolations = {
-m007 = 1;
-};
 name = "Thin Softened";
 weightClass = 100;
 },
@@ -941,10 +909,6 @@ axesValues = (
 200,
 0
 );
-instanceInterpolations = {
-m007 = 0.66667;
-m008 = 0.33333;
-};
 name = "ExtraLight Softened";
 weightClass = 200;
 },
@@ -953,10 +917,6 @@ axesValues = (
 300,
 0
 );
-instanceInterpolations = {
-m007 = 0.33333;
-m008 = 0.66667;
-};
 name = "Light Softened";
 weightClass = 300;
 },
@@ -965,44 +925,29 @@ axesValues = (
 400,
 0
 );
-instanceInterpolations = {
-m008 = 1;
-};
 name = Softened;
 },
 {
 axesValues = (
-490,
+500,
 0
 );
-instanceInterpolations = {
-m008 = 0.82;
-m009 = 0.18;
-};
 name = "Medium Softened";
 weightClass = 500;
 },
 {
 axesValues = (
-580,
+600,
 0
 );
-instanceInterpolations = {
-m008 = 0.64;
-m009 = 0.36;
-};
 name = "SemiBold Softened";
 weightClass = 600;
 },
 {
 axesValues = (
-670,
+700,
 0
 );
-instanceInterpolations = {
-m008 = 0.46;
-m009 = 0.54;
-};
 isBold = 1;
 linkStyle = Softened;
 name = "Bold Softened";
@@ -1010,13 +955,9 @@ weightClass = 700;
 },
 {
 axesValues = (
-780,
+800,
 0
 );
-instanceInterpolations = {
-m008 = 0.24;
-m009 = 0.76;
-};
 name = "ExtraBold Softened";
 weightClass = 800;
 },
@@ -1025,9 +966,6 @@ axesValues = (
 900,
 0
 );
-instanceInterpolations = {
-m009 = 1;
-};
 name = "Black Softened";
 weightClass = 900;
 },
@@ -1036,9 +974,6 @@ axesValues = (
 100,
 1
 );
-instanceInterpolations = {
-m005 = 1;
-};
 name = "Thin Rounded";
 weightClass = 100;
 },
@@ -1047,10 +982,6 @@ axesValues = (
 200,
 1
 );
-instanceInterpolations = {
-m004 = 0.33333;
-m005 = 0.66667;
-};
 name = "ExtraLight Rounded";
 weightClass = 200;
 },
@@ -1059,10 +990,6 @@ axesValues = (
 300,
 1
 );
-instanceInterpolations = {
-m004 = 0.66667;
-m005 = 0.33333;
-};
 name = "Light Rounded";
 weightClass = 300;
 },
@@ -1071,44 +998,29 @@ axesValues = (
 400,
 1
 );
-instanceInterpolations = {
-m004 = 1;
-};
 name = Rounded;
 },
 {
 axesValues = (
-490,
+500,
 1
 );
-instanceInterpolations = {
-m004 = 0.82;
-m006 = 0.18;
-};
 name = "Medium Rounded";
 weightClass = 500;
 },
 {
 axesValues = (
-580,
+600,
 1
 );
-instanceInterpolations = {
-m004 = 0.64;
-m006 = 0.36;
-};
 name = "SemiBold Rounded";
 weightClass = 600;
 },
 {
 axesValues = (
-670,
+700,
 1
 );
-instanceInterpolations = {
-m004 = 0.46;
-m006 = 0.54;
-};
 isBold = 1;
 linkStyle = Rounded;
 name = "Bold Rounded";
@@ -1116,13 +1028,9 @@ weightClass = 700;
 },
 {
 axesValues = (
-780,
+800,
 1
 );
-instanceInterpolations = {
-m004 = 0.24;
-m006 = 0.76;
-};
 name = "ExtraBold Rounded";
 weightClass = 800;
 },
@@ -1131,9 +1039,6 @@ axesValues = (
 900,
 1
 );
-instanceInterpolations = {
-m006 = 1;
-};
 name = "Black Rounded";
 weightClass = 900;
 }
@@ -1157,11 +1062,20 @@ type = descender;
 );
 properties = (
 {
-key = sampleTexts;
+key = copyrights;
 values = (
 {
 language = dflt;
-value = "09:41";
+value = "Copyright 2024 Aaron212. Reserved font name not applicable.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "A versatile numeric font based on Inter.";
 }
 );
 },
@@ -1179,15 +1093,6 @@ key = designerURL;
 value = "https://aaron212.top/";
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2024 Aaron212. Reserved font name not applicable.";
-}
-);
-},
-{
 key = licenses;
 values = (
 {
@@ -1201,11 +1106,11 @@ key = licenseURL;
 value = "https://openfontlicense.org/";
 },
 {
-key = descriptions;
+key = sampleTexts;
 values = (
 {
 language = dflt;
-value = "A versatile numeric font based on Inter.";
+value = "09:41";
 }
 );
 },
@@ -1214,6 +1119,10 @@ key = vendorID;
 value = AARN;
 }
 );
+settings = {
+fontType = variable;
+previewRemoveOverlap = 0;
+};
 stems = (
 {
 horizontal = 1;

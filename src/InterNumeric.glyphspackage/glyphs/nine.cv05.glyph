@@ -1,0 +1,65 @@
+{
+color = 3;
+export = 0;
+glyphname = nine.cv05;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1396,1490);
+ref = six.cv05;
+}
+);
+width = 1396;
+},
+{
+layerId = "B487E3D2-4ABF-4A2A-A195-DC6AACAFF568";
+shapes = (
+{
+angle = 180;
+pos = (1256,1490);
+ref = six.cv05;
+}
+);
+width = 1256;
+},
+{
+layerId = m005;
+width = 600;
+},
+{
+layerId = "45635B2B-919A-4B12-975B-2FA0A7CA8B35";
+shapes = (
+{
+angle = 180;
+pos = (1138,1490);
+ref = six.cv05;
+}
+);
+width = 1138;
+},
+{
+layerId = m009;
+width = 600;
+},
+{
+layerId = m006;
+width = 600;
+},
+{
+layerId = m007;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m008;
+width = 600;
+}
+);
+metricWidth = zero;
+}
