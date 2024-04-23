@@ -21,13 +21,13 @@ wghtAxisLabels = [
 ]
 dsfile.getAxisByTag("wght").axisLabels = wghtAxisLabels
 
-RDNSAxisLabels = [
+RONDAxisLabels = [
     AxisLabelDescriptor(name="Sharp", userValue=-1, userMinimum=-1, userMaximum=-0.5, elidable=True),
     AxisLabelDescriptor(name="Softened", userValue=0, userMinimum=-0.5, userMaximum=0.5),
     AxisLabelDescriptor(name="Rounded", userValue=1, userMinimum=0.5, userMaximum=1),
 ]
 
-dsfile.getAxisByTag("RDNS").axisLabels = RDNSAxisLabels
+dsfile.getAxisByTag("ROND").axisLabels = RONDAxisLabels
 
 locationLabels = [
     LocationLabelDescriptor(name="Regular", userLocation=dict(Roundness=-1, Weight=400)),

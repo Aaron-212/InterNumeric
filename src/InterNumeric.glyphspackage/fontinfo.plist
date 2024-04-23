@@ -8,7 +8,7 @@ tag = wght;
 },
 {
 name = Roundness;
-tag = RDNS;
+tag = ROND;
 }
 );
 customParameters = (
@@ -33,13 +33,12 @@ value = 16;
 {
 name = fsType;
 value = (
-3
 );
 },
 {
 name = "Axis Mappings";
 value = {
-RDNS = {
+ROND = {
 -1 = -1;
 1 = 1;
 };
@@ -199,8 +198,7 @@ code = "cvParameters { FeatUILabelNameID { name \"Square Zero\"; }; };
 sub zero by zero.cv05;
 sub zero.slash by zero.slash.cv05;
 sub zero.tf by zero.tf.cv05;
-sub zero.tf.slash by zero.tf.slash.cv05;
-";
+sub zero.tf.slash by zero.tf.slash.cv05;";
 tag = cv05;
 }
 );
